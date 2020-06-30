@@ -8,7 +8,7 @@ $(document).ready(function () {
     getData(url);
 
     $(window).on('scroll', ifiniteScroll);
-    $(window).on('touchmove', ifiniteScroll);
+    $(document.body).on('touchmove', ifiniteScroll);
 
 
     function ifiniteScroll(){
