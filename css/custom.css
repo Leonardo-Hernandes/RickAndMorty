@@ -2,26 +2,26 @@
 
 @font-face {
     font-family: downhill;
-    src: url("/fonts/Down\ Hill.ttf")
+    src: url("../fonts/Down\ Hill.ttf")
 }
 
 @font-face {
     font-family: rickandmorty;
-    src: url("/fonts/get-schwifty.ttf")
+    src: url("../fonts/get-schwifty.ttf")
 }
 
 @font-face {
     font-family: mooncheese;
-    src: url("/fonts/MoonCheese-Regular.ttf")
+    src: url("../fonts/MoonCheese-Regular.ttf")
 }
 
 @font-face {
     font-family: neufreit;
-    src: url("/fonts/Neufreit-ExtraBold.otf")
+    src: url("../fonts/Neufreit-ExtraBold.otf")
 }
 
 body{
-    background: #FFFFFF url("/images/876591.jpg") no-repeat right top fixed;
+    background: #FFFFFF url("../images/876591.jpg") no-repeat right top fixed;
     background-size: auto;
     height: 68px;
     

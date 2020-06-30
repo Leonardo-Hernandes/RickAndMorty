@@ -31,7 +31,7 @@ $(document).ready(function () {
                     var personagem = data.results[i];
                     var html = ''
                     html += '<div class="col-md-3 ">'
-                    html += '<a href="/character.html?id=' + personagem.id  + '">';
+                    html += '<a href="character.html?id=' + personagem.id  + '">';
                     html += '<div class="card shadow p-3 mb-5 rounded">'
                     html += '<img src="' + personagem.image + '" class="card-img-top">'
                     html += '<div class="card-body">'
