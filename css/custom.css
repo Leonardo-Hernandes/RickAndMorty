@@ -1,0 +1,57 @@
+
+
+@font-face {
+    font-family: downhill;
+    src: url("/fonts/Down\ Hill.ttf")
+}
+
+@font-face {
+    font-family: rickandmorty;
+    src: url("/fonts/get-schwifty.ttf")
+}
+
+@font-face {
+    font-family: mooncheese;
+    src: url("/fonts/MoonCheese-Regular.ttf")
+}
+
+@font-face {
+    font-family: neufreit;
+    src: url("/fonts/Neufreit-ExtraBold.otf")
+}
+
+body{
+    background: #FFFFFF url("/images/876591.jpg") no-repeat right top fixed;
+    background-size: auto;
+    height: 68px;
+    
+}
+
+
+.titulo{
+    text-align: center;
+    font-family: mooncheese;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    padding-top: 27px;
+    background-color: white;
+}
+
+.nfont{
+    font-family: downhill;
+}
+
+.ndfont{
+    font-family: monospace;
+}
+
+.nfont1{
+    font-family: downhill;
+    color: black;
+}
+
+.ndfont1{
+    font-family: monospace;
+    color: black;
+}
