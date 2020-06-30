@@ -53,22 +53,6 @@ $(document).ready(function () {
     
 
     function getEpisodes(episodes){
-
-                    // var personagem = data;
-                    //  var html = ''
-                    //  html += '<div class="col-md-3">'
-                    //  html += '<div class="card"></div>'
-                    //  html += '<img src="' + personagem.image + '" class="card-img-top">'
-                    //  html += '<div class="card-body">'
-                    //  html += '<h3 class="card-text nfont">' + personagem.name +'</h3>'
-                    //  html += '<p class="card-text ndfont">status: ' + personagem.status + '</p>'
-                    //  html += '<p class="card-text ndfont">species: ' + personagem.species + '</p>'
-                    //  html += '<p class="card-text ndfont">gender: ' + personagem.gender + '</p>'
-                    //  html += '<p class="card-text ndfont">origin: ' + personagem.origin.name + '</p>'
-                    //  html += '</div>'
-                    //  html += '</div>'
-                    //  html += '</div>
-
         for(let episodeUrl of episodes){
             getEpisodeData(episodeUrl);          
         }

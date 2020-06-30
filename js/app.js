@@ -7,12 +7,17 @@ $(document).ready(function () {
 
     getData(url);
 
-    $(window).scroll(function() {
+    $(window).on('scroll', ifiniteScroll);
+    $(window).on('touchmove', ifiniteScroll);
+
+
+    function ifiniteScroll(){
         if($(window).scrollTop() + $(window).height() == $(document).height()) {
             getData(NextPage);
             console.log("bottom!");
         }
-     });
+    }
+
 
     function getData(url) {
         $.ajax({
