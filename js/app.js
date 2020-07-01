@@ -7,12 +7,13 @@ $(document).ready(function () {
 
     getData(url);
 
-    $(window).on('scroll', ifiniteScroll);
-    $(document.body).on('touchmove', ifiniteScroll);
+    console.log(url)
+
+    $(document).on('scroll', ifiniteScroll);
 
 
     function ifiniteScroll(){
-        if($(window).scrollTop() + $(window).height() == $(document).height()) {
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) { 
             getData(NextPage);
             console.log("bottom!");
         }
